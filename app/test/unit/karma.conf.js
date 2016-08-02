@@ -55,7 +55,7 @@ module.exports = function (config) {
     // 2. add it to the `browsers` array below.
     browsers: ['Chrome'],
     frameworks: ['mocha', 'sinon-chai'],
-    reporters: ['spec', 'coverage'],
+    reporters: ['spec', 'coverage', 'say'],
     files: ['./index.js'],
     preprocessors: {
       './index.js': ['webpack', 'sourcemap']
@@ -72,5 +72,10 @@ module.exports = function (config) {
       ]
     },
     autoWatch: true,
+    sayReporter: {
+      success: "test successs",
+      fail: "test failed",
+      voice: "Agnes"
+    },
   })
 }
