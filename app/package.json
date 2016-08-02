@@ -65,6 +65,7 @@
     "postcss": "^5.1.1",
     "sass-loader": "^4.0.0",
     "selenium-server": "^2.53.1",
+    "selenium-server-standalone-jar": "^2.53.1",
     "shelljs": "latest",
     "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0",
